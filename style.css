@@ -4,7 +4,9 @@ body {
 
 
 }
-
+img {
+    border-radius: 10px;
+}
 span {
     color: aliceblue;
 }
@@ -60,16 +62,29 @@ span {
     position: absolute; top: 1160px; left:470px;
     width: 400px;
 }
+.textjv1{
+    position: absolute; top: 1370px; left:570px;
+    font-size: 30px;
+    font-weight: 700;   
+    transition: top 3s;
+}
+.textjv2{
+    visibility: hidden  ;
+    position: absolute; top: 1440px; left:475px;
+    font-size: 25px;  
+    transition: top 3s;
+}
 
     
 
 .jv:hover{
-    .manette{opacity: 0.3;}
-    .textjv1{position: absolute; top: 1180px; left:570px;}
-    .textjv2{
-        display: block;
-        position: absolute; top: 1240px; left:475px;
 
+    .manette{opacity: 0.3;}
+    .textjv1{ top: 1180px}
+    .textjv2{
+        visibility: visible;
+        top: 1250px; 
+    
     }
 }
 .imgfilm {
@@ -77,36 +92,79 @@ span {
     position: absolute; top: 1160px; left:970px;
     width: 400px;
 }
-
+.textfilm1{
+    position: absolute; top: 1370px; left:1075px;
+    font-size: 30px;   
+    font-weight: 700;
+    transition: top 3s;
+}
+.textfilm2{
+    position: absolute; top: 1440px; left:1025px;
+    font-size: 25px;
+    visibility: hidden;
+    transition: top 3s;
+}
 .film:hover{
     .imgfilm{
         opacity: 0.3;
     }
     .textfilm1{
-        position: absolute; top: 1180px; left:1075px;
+        top: 1180px
     }
     .textfilm2{
-        display: block;
-        position: absolute; top: 1240px; left:1030px;
+        visibility: visible;
+        top: 1240px; 
+
     }
 }
 .imgmanga {
     height: 260px;
     position: absolute; top: 1500px; left:470px;
     width: 400px;
+    transition: 3s;
+}
+.textmanga1{
+    position: absolute; top: 1710px; left:545px;
+    font-size: 30px; 
+    font-weight: 700; 
+    transition:top 3s; 
+}
+.textmanga2 {
+    position: absolute; top: 1770px; left:530px;
+    font-size: 25px;  
+    visibility: hidden;
+    transition: top 3s;
 }
 .manga:hover{
     .imgmanga{opacity: 0.3;}
-    .textmanga1{position: absolute; top: 1520px; left:535px;}
-    .textmanga2{display: block;
-        position: absolute; top: 1570px; left:520px;}
+    .textmanga1{top: 1520px;}
+    .textmanga2{ top: 1600px;
+    visibility: visible; }
 }
 
 .imgsport {
     height: 260px;
     position: absolute; top: 1500px; left:980px;
     width: 400px;
-
+}
+.textsport1{
+    position: absolute; top: 1710px; left:1115px;
+    font-size: 30px;   
+    font-weight: 700;
+    transition: 3s;
+}
+.textsport2{
+    position: absolute; top: 1770px; left:1005px;
+    font-size: 25px;  
+    visibility: hidden;
+    transition: top 3s;
+}
+.sport:hover{
+    .imgsport{opacity: 0.3;}
+    .textsport1{ top: 1520px}
+    .textsport2{visibility: visible;
+     top: 1570px; 
+}
 }
 h1{
     color: aliceblue;
@@ -116,46 +174,10 @@ h1{
     font-size: 90px;
 
 }
-.textfilm1{
-    position: absolute; top: 1370px; left:1075px;
-    font-size: 30px;   
-    font-weight: 700;
-}
-.textfilm2{
-    position: absolute; top: 1440px; left:980px;
-    font-size: 25px;
-    display: none;
-}
-.textmanga1{
-    position: absolute; top: 1710px; left:545px;
-    font-size: 30px; 
-    font-weight: 700;  
-}
-.textmanga2 {
-    position: absolute; top: 1770px; left:475px;
-    font-size: 25px;  
-    display: none;
-}
-.textjv1{
-    position: absolute; top: 1370px; left:570px;
-    font-size: 30px;
-    font-weight: 700;   
-}
-.textjv2{
-    position: absolute; top: 1440px; left:475px;
-    font-size: 25px;  
-    display: none;
-}
-.textsport1{
-    position: absolute; top: 1710px; left:1115px;
-    font-size: 30px;   
-    font-weight: 700;
-}
-.textsport2{
-    position: absolute; top: 1770px; left:975px;
-    font-size: 25px;  
-    display: none;
-}
+
+
+
+
 .page3{
     height: 100vh;
     background: rgb(93,34,195);
