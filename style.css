@@ -61,6 +61,7 @@ span {
     height: 260px;
     position: absolute; top: 1160px; left:470px;
     width: 400px;
+    transition: scale 1s;
 }
 .textjv1{
     position: absolute; top: 1370px; left:570px;
@@ -79,7 +80,8 @@ span {
 
 .jv:hover{
 
-    .manette{opacity: 0.3;}
+    .manette{opacity: 0.3;
+    scale: 1.05}
     .textjv1{ top: 1180px}
     .textjv2{
         visibility: visible;
@@ -91,6 +93,7 @@ span {
     height: 260px;
     position: absolute; top: 1160px; left:970px;
     width: 400px;
+    transition: scale 1s;
 }
 .textfilm1{
     position: absolute; top: 1370px; left:1075px;
@@ -107,6 +110,7 @@ span {
 .film:hover{
     .imgfilm{
         opacity: 0.3;
+        scale: 1.02;
     }
     .textfilm1{
         top: 1180px
@@ -121,7 +125,7 @@ span {
     height: 260px;
     position: absolute; top: 1500px; left:470px;
     width: 400px;
-    transition: 3s;
+    transition: scale 1s
 }
 .textmanga1{
     position: absolute; top: 1710px; left:545px;
@@ -136,7 +140,9 @@ span {
     transition: top 3s;
 }
 .manga:hover{
-    .imgmanga{opacity: 0.3;}
+    .imgmanga{opacity: 0.3;
+      scale : 1.05 
+    }
     .textmanga1{top: 1520px;}
     .textmanga2{ top: 1600px;
     visibility: visible; }
@@ -146,6 +152,7 @@ span {
     height: 260px;
     position: absolute; top: 1500px; left:980px;
     width: 400px;
+    transition: scale 1s;
 }
 .textsport1{
     position: absolute; top: 1710px; left:1115px;
@@ -160,7 +167,8 @@ span {
     transition: top 3s;
 }
 .sport:hover{
-    .imgsport{opacity: 0.3;}
+    .imgsport{opacity: 0.3;
+        scale : 1.05 }
     .textsport1{ top: 1520px}
     .textsport2{visibility: visible;
      top: 1570px; 
