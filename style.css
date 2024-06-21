@@ -198,21 +198,33 @@ h1{
     background: rgb(93,34,195);
     background: linear-gradient(0deg, rgba(93,34,195,1) 0%, rgba(36,187,195,1) 96%, rgba(34,193,195,0.01) 100%); 
 }
+.page3:hover{
+    .titre3{left : 700px}
+    .imgmail{left:805px}
+    .imgtel{left:800px}
+    .mail{left:870px}
+    .numtel{left:870px}
+}
 .titre3 {
-    position: absolute; top: 2200px; left:700px;
+    position: absolute; top: 2200px; left:-700px;
     font-size: 90px;
+    transition: left 3s;
 }
 .imgmail {
     height: 50px;
-    position: absolute; top: 2355px; left:805px;
+    position: absolute; top: 2355px; left:-205px;
+    transition: left 2s 1.5S;
 }
 .imgtel {
     height: 60px;
-    position: absolute; top: 2410px; left:800px;
+    position: absolute; top: 2410px; left:-200px;
+    transition: left 2s 1.5S;
 }
 .mail {
-    position: absolute; top: 2370px; left:870px; 
+    position: absolute; top: 2370px; left:-300px; 
+    transition: left 2s 3.5s;
 }
 .numtel {
-    position: absolute; top: 2430px; left: 870px;
+    position: absolute; top: 2430px; left: -300px;
+    transition: left 2s 3.5s;
 }
